@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tower Blocks</title>
+</head>
+<body>
+    <div id="container">
+        <div id="game"></div>
+        <div id="score" class="hide">0</div>
+        <div id="instructions" class="hide">Tap or press the spacebar to place the block</div>
+        <div id="gameEndInstructions" class="hide">
+            <h2>Game Over</h2>
+            <p id="scoreText"></p>
+            <p id="bestScoreText"></p>
+            <button id="restartButton">Restart</button>
+        </div>
+        
+        <div class="game-ready">
+            <div id="start-button">Start</div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
